@@ -29,7 +29,16 @@ This repository contains Python code implementing a genetic algorithm for functi
     cd genetic-algorithm
     ```
 
-3. Ensure your input file (`input.txt`) containing algorithm parameters and domain specifications is in the root directory.
+3. Ensure your input file (`input.txt`) containing algorithm parameters and domain specifications is in the root directory. The input file should have the following format:
+    - Number of chromosomes
+    - Domain of the function (closed interval endpoints)
+    - Coefficients of the quadratic function
+    - Precision for discretizing the interval
+    - Crossover probability
+    - Mutation probability
+    - Number of generations
+    
+    Refer to the provided `input.txt` file for an example.
 
 4. Run the Python script:
 
@@ -38,20 +47,6 @@ This repository contains Python code implementing a genetic algorithm for functi
     ```
 
 5. Check the output file (`output.txt`) for the results, including initial and final populations, as well as statistics on the evolution process.
-
-## Input File Format
-
-The input file (`input.txt`) should contain the following parameters:
-
-- Number of chromosomes
-- Domain of the function
-- Coefficients of the quadratic function
-- Precision
-- Crossover probability
-- Mutation probability
-- Number of generations
-
-Refer to the provided `input.txt` file for an example.
 
 ## Output
 
