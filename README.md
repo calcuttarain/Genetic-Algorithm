@@ -60,6 +60,3 @@ The algorithm generates an output file (`output.txt`) containing:
 - Chromosomes after mutation
 - Statistics on mean fitness and maximum fitness over generations
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
