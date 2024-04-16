@@ -1,6 +1,6 @@
 # Genetic Algorithm for Function Optimization
 
-This repository contains Python code implementing a genetic algorithm for function optimization. The algorithm is designed to find the maximum value of a quadratic function within a given domain.
+This repository contains Python code implementing a genetic algorithm for function optimization. The algorithm is an academic example of the genetic algorithms usage designed to find the maximum value of a quadratic function within a given domain.
 
 ## Features
 
